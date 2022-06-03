@@ -15,6 +15,7 @@ jobs:
         with:
           build: npm run build
           start: npm start
+          run: npx cypress run --record --key 70b80422-672c-4e3a-8c46-e3f6f8d415dc
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

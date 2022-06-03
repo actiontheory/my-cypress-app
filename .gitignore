@@ -25,3 +25,5 @@ yarn-error.log*
 # vim
 *.swp
 
+# cypress
+cypress/videos
